@@ -20,7 +20,7 @@ export default function App() {
         <Route path="/products/:id" element={<ProductDetails />} />
         <Route path="/about" element={<About />} />
 
-        {/* 9. Challenge: nested routes */}
+        {/* 9.nested routes */}
         <Route path="/dashboard" element={<Dashboard />}>
           <Route index element={<DashboardHome />} />
           <Route path="profile" element={<Profile />} />
